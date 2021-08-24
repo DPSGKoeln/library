@@ -204,7 +204,13 @@ class Parser
             return '';
         }
 
-        // Used by Twig for loop
+        if (isset($params['hidden'])) {
+            return '';
+        }
+
+        /*
+         * Used by Twig for loop
+         */
         if ($prefix) {
             $field = $prefix.'.'.$field;
         }
