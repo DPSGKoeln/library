@@ -9,7 +9,7 @@ use October\Rain\Support\Facade;
  * @method static mixed listConverterObjects()
  * @method static mixed findConverterByAlias()
  *
- * @see \Responsiv\Shop\Classes\CurrencyManager
+ * @see \Responsiv\Currency\Classes\CurrencyManager
  */
 class Currency extends Facade
 {
